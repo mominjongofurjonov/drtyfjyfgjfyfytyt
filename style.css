@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #a2a2a2;
+}
+
+
+.container {
+    width: 566px;
+    height: 981px;
+    /* border: 2px solid rgb(255, 166, 0); */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.trend {
+    margin-left: 232px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.title p {
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title {
+    margin-left: 137px;
+    margin-bottom: 16px;
+}
+
+.reminder p {
+    color: #444150;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.reminder {
+    margin-left: 166px;
+    display: inline;
+    margin-bottom: 40px;
+}
+
+.log a {
+    color: var(--01-bab-3, #01BAB3);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.log{
+    margin-top: 14px;
+}
+
+.log__reminder{
+    gap: 14px;
+    display: flex;
+    height: 26px;
+    margin-bottom: 40px;
+}
+
+.email{
+    height: 75px;
+    margin-left: 75px;
+    margin-bottom: 22px;
+}
+
+.email__text label{ 
+    display: inline-block;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.email__text span{
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.input{
+    border: 1px solid gray;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 414px;
+    height: 45px;
+    padding: 10px 15px;
+}
+
+.selector{
+    width: 200px;
+    height: 48px;
+    border-radius: 6px;
+    padding: 10px 15px;
+
+}
+
+.country__box select{
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.filling label{
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.filling span{
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.country__box{
+    display: flex;
+}
+
+.filling{
+    margin-left: 75px;
+    margin-bottom: 22px;
+    gap: 16px;
+}
+
+.input__city{
+    display: flex;
+    flex-direction: column;
+    margin-top: -24px;
+    margin-left: 16px;
+}
+
+.city__name{
+    width: 200px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 10px 0px 14px 16px;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.password{
+    margin-left: 76px;
+    margin-bottom: 22px;
+}
+
+.password label{
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.password span{
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.confirm__box span{
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.confirm__box label{
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.confirm__box{
+    height: 75px;
+    margin-left: 75px;
+    margin-bottom: 87px;
+}
+
+.register{
+    width: 414px;
+    height: 51px;
+    border-radius: 6px;
+    margin-left: 75px;
+    margin-bottom: 23px;
+    
+}
+
+.register__btn:hover{
+    transform: scale(1.03);
+    background-color: #680028;
+    cursor: pointer;
+}
+
+.register__btn:active{
+    transform: scale(0.8);
+}
+
+.register__btn{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: #01BAB3;
+    border-radius: 6px;
+    width: 414px;
+    height: 51px;
+    background-color: var(--01-bab-3, #01BAB3);;
+    transition: 0.8s;
+}
+
+.extra p{
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.extra__info{
+    width: 366px;
+    height: 47px;
+    color: #778699;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 100px;
+    margin-right: 99px;
+    margin-bottom: 72px;
+}
+
+.extra__info span{
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
